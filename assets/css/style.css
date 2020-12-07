@@ -19,6 +19,7 @@
 .nav {
     border: 5px solid #142546;
     text-align: center;
+    display: inherit;
 }
 
 .nav li {
