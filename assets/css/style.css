@@ -32,5 +32,6 @@
 .nav-link {
     color: #142546;
     letter-spacing: 2px;
+    text-shadow: 1px 1px #142546;
 }
 
