@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
 .logo {
     border: 5px solid #142546;
     background-color: white;
@@ -14,4 +16,21 @@
     margin-right: auto;
 }
 
+.nav {
+    border: 5px solid #142546;
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.nav-link {
+    color: #142546;
+    letter-spacing: 2px;
+}
 
