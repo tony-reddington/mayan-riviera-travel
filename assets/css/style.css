@@ -41,3 +41,17 @@
     height: 40px;
 }
 
+#about-us {
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+    font-size: 2vw;
+    font-family: 'Lato', sans-serif;
+}
+
+#about-paragraph {
+    text-align: center;
+    padding: 0px 60px 50px 60px;
+    font-size: 2vw;
+    font-family: 'Lato', sans-serif;
+}
+
