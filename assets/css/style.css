@@ -57,11 +57,18 @@
 
 .recommended-header {
     text-align: center;
-    padding: 10px 0px 0px 0px;
+    padding: 10px 0px 10px 0px;
     font-size: 2vw;
     font-family: 'Lato', sans-serif;
     color: #142546;
     text-transform: uppercase;
     text-decoration: underline;
+    font-weight: bold;
+}
+
+.recommended-header-text {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #142546;
     font-weight: bold;
 }
