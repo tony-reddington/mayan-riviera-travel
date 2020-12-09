@@ -112,3 +112,7 @@ footer {
     margin: auto;
 }
 
+img.col-sm {
+    padding: 15px;
+}
+
