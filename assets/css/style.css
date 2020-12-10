@@ -55,7 +55,8 @@
 
 #about-paragraph {
     text-align: center;
-    padding: 0px 60px 50px 60px;
+    padding: 5px 40px 10px 40px;
+    margin: 0px;
     font-size: 2vw;
     font-family: 'Lato', sans-serif;
 }
