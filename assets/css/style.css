@@ -81,6 +81,19 @@
     text-decoration: underline;
 }
 
+.recommended-tour-paragraph {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #142546;
+    font-size: 12px;
+}
+
+.border-box {
+    border: 5px solid #142546;
+    margin: 0px;
+    padding: 0px 15px;
+}
+
 .about p {
     font-family: 'Lato', sans-serif;
     color: #142546;
