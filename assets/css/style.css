@@ -36,6 +36,11 @@
     text-shadow: 1px 1px #142546;
 }
 
+.carousel-border {
+    border: 5px solid #142546;
+    border-top: none;
+}
+
 .carousel-control-next-icon, .carousel-control-prev-icon {
     width: 40px;
     height: 40px;
@@ -112,8 +117,6 @@ footer {
     margin: auto;
     display: block;
 }
-
-
 
 img.col-sm {
     padding: 15px;
