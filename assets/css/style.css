@@ -110,7 +110,10 @@ footer {
     height: 150px;
     width: 150px;
     margin: auto;
+    display: block;
 }
+
+
 
 img.col-sm {
     padding: 15px;
