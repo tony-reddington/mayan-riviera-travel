@@ -142,4 +142,18 @@ img.col-sm {
     font-size: 22px;
 }
 
+a:hover {
+    color: rgb(62, 185, 173);
+    text-shadow: 1px 1px rgb(62, 185, 173);
+    font-size: 18px;
+}
+
+a:active {
+    color: #2E8B57;
+}
+
+i:hover {
+    color: rgb(62, 185, 173);
+}
+
 
