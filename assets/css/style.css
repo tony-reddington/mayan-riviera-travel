@@ -87,6 +87,9 @@
     color: #142546;
     font-size: 12px;
     padding: 10px;
+}
+
+.about p {
     font-size: 12px;
     line-height: 35px;
     font-weight: bold;
@@ -125,4 +128,5 @@ footer {
 img.col-sm {
     padding: 15px;
 }
+
 
