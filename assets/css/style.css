@@ -167,4 +167,11 @@ i:hover {
     color: rgb(62, 185, 173);
 }
 
+@media only screen and (max-width: 767px) {
+    .social-icons {
+        margin: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
 
