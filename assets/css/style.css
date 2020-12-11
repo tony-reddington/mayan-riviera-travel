@@ -89,6 +89,13 @@
     padding: 10px;
 }
 
+.footer-details {
+    display: block;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
 .footer-details p {
     font-size: 12px;
     line-height: 35px;
