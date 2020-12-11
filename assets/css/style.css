@@ -111,10 +111,10 @@ footer {
 @media only screen and (max-width: 767px) {
     .footer-details p {
         margin: 0;
-        padding: 0;
+        padding-top: 5px;
         font-size: 10px;
         line-height: 17px;
-        padding-bottom: 10px;
+        padding-bottom: 5px;
     }
 }
 
