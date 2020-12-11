@@ -129,4 +129,12 @@ img.col-sm {
     padding: 15px;
 }
 
+.social-icons {
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+
 
