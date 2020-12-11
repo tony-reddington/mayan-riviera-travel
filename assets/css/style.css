@@ -102,6 +102,10 @@
     font-weight: bold;
 }
 
+.footer-details p span {
+    font-weight: 900;
+}
+
 footer {
     background-color: white;
     color: #142546;
