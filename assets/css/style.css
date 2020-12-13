@@ -16,6 +16,24 @@
     margin-right: auto;
 }
 
+.navbar {
+    border: 5px solid #142546;
+    background: white!important; 
+    padding: 0;
+    width: 100%;
+}
+
+.nav-link {
+    color: #142546!important;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font: 16px;
+    padding-left: 20px;
+}
+
+
 .carousel-border {
     border: 5px solid #142546;
     border-top: none;
