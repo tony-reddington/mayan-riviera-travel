@@ -87,6 +87,17 @@
     text-decoration: underline;
 }
 
+.price-duration {
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    color: #142546;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+
 .recommended-tour-paragraph {
     text-align: center;
     font-family: 'Lato', sans-serif;
