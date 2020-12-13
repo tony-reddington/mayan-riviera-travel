@@ -29,8 +29,9 @@
     text-decoration: underline;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
-    font: 16px;
-    padding-left: 20px;
+    font-size: 20px;
+    padding-left: 40px!important;
+    padding-right: 40px!important;
 }
 
 
