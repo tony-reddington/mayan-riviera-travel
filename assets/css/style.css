@@ -16,28 +16,6 @@
     margin-right: auto;
 }
 
-.nav {
-    border: 5px solid #142546;
-    text-align: center;
-    display: inherit;
-    padding: 5px;
-    margin: 0px;
-}
-
-.nav li {
-    display: inline-block;
-    font-family: 'Lato', sans-serif;
-    text-transform: uppercase;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-.nav-link {
-    color: #142546;
-    letter-spacing: 2px;
-    text-shadow: 1px 1px #142546;
-}
-
 .carousel-border {
     border: 5px solid #142546;
     border-top: none;
