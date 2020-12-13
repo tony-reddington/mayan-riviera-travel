@@ -57,6 +57,12 @@
     color: #142546;
 }
 
+.recommended-tour-divs {
+    padding: 0px 10px;
+    border: 5px solid #142546;
+    margin: 15px;
+}
+
 .recommended-header {
     text-align: center;
     padding: 10px 0px 10px 0px;
