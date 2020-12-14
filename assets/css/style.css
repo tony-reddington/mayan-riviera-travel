@@ -18,6 +18,7 @@
 
 .navbar {
     border: 5px solid #142546;
+    border-top: none;
     background: white!important; 
     padding: 0;
     width: 100%;
