@@ -22,14 +22,7 @@
     width: 100%;
     display: flex;
     justify-content: center;
-}
-
-.navbar-nav .nav-link {
-    display: flex;
-    justify-content: center;
-}
-
-.nav-link {
+}.nav-link {
     color: #142546!important;
     text-transform: uppercase;
     text-decoration: underline;
@@ -61,7 +54,7 @@
 
 .recommended-tour-divs {
     padding: 0px 10px;
-    border: 5px solid #142546;
+    border: 5px1.4remlid #142546;
     margin: 15px;
 }
 
