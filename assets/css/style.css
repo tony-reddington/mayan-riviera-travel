@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 .logo {
-    border: 5px solid #142546;
     background-color: white;
     border-bottom: none;
     max-width: auto;
@@ -17,7 +16,6 @@
 }
 
 .navbar {
-    border: 5px solid #142546;
     border-top: none;
     background: white!important; 
     padding: 0;
@@ -38,12 +36,6 @@
 .navbar-toggler {
     border: 2px solid #142546!important;
     margin: 5px;
-}
-
-
-.carousel-border {
-    border: 5px solid #142546;
-    border-top: none;
 }
 
 .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -130,7 +122,6 @@ footer {
     background-color: white;
     color: #142546;
     min-height: 110px;
-    border: 5px solid #142546;
 }
 
 @media only screen and (max-width: 767px) {
