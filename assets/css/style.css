@@ -186,3 +186,29 @@ i:hover {
     }
 }
 
+@media only screen and (max-width: 576px) {
+    #about-paragraph {
+        font-size: 1rem;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .col-lg-4 {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 31.333333%;
+    max-width: 33.333333%;
+    }
+    .recommended-tour-divs {
+    margin: 15px auto;
+    }
+    .recommended-header-text {
+    font-size: 1.35vw;}
+}
+
+@media only screen and (min-width: 992px) {
+    div .row .recommended-tour-divs {
+        margin: 0px 15px!important;
+    }
+}
+
+
