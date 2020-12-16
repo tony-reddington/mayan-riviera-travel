@@ -126,12 +126,6 @@ footer {
 }
 
 @media only screen and (max-width: 767px) {
-    footer {
-        text-align: center;
-    }
-}
-
-@media only screen and (max-width: 767px) {
     .footer-details p {
         margin: 0;
         padding-top: 5px;
@@ -192,7 +186,7 @@ i:hover {
     }
 }
 
-@media only screen and (min-width: 992px){
+@media only screen and (min-width: 992px) {
     .col-lg-4 {
     -ms-flex: 0 0 33.333333%;
     flex: 0 0 31.333333%;
@@ -205,10 +199,31 @@ i:hover {
     font-size: 1.35vw;}
 }
 
-@media only screen and (min-width: 992px) {
-    div .row .recommended-tour-divs {
-        margin: 0px 15px!important;
+@media only screen and (max-width: 381px) {
+    .footer-details p {
+        font-size: 2vw;
+    }
+    .icons {
+        padding: 0 10px 5px 10px;
+        font-size: 4vw;
     }
 }
 
-
+@media only screen and (min-width: 992px) {
+    .footer-details p {
+        font-size: 8px;
+    }
+    .icons {
+        padding: 0 20px;
+        font-size: 22px;
+    }
+    .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .row {
+        padding: 0;
+        margin: 0;
+    }
+}
