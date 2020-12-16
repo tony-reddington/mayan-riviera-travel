@@ -237,4 +237,7 @@ i:hover {
         padding: 0;
         margin: 0;
     }
+    .footer-details p {
+        font-size: 10px;
+    }
 }
