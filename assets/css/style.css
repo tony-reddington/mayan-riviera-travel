@@ -109,6 +109,10 @@
     padding: 10px;
 }
 
+.row {
+    margin: 0;
+}
+
 .footer-details {
     display: block;
     text-align: center;
