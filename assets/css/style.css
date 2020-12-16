@@ -48,6 +48,13 @@
     height: 40px;
 }
 
+.carousel-caption {
+        background-image: linear-gradient(0.2deg, #142546, transparent);
+        right: 0%;
+        left: 0%;
+        bottom: 0%;
+}
+
 #about-paragraph {
     text-align: center;
     padding: 20px 40px 20px 40px;
