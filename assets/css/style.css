@@ -195,6 +195,15 @@ i:hover {
     #about-paragraph {
         font-size: 1rem;
     }
+    .tour-name-header {
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .tour-name-header {
+        font-size: 2vw;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -207,7 +216,8 @@ i:hover {
     margin: 15px auto;
     }
     .recommended-header-text {
-    font-size: 1.35vw;}
+    font-size: 1.35vw;
+    }
 }
 
 @media only screen and (max-width: 381px) {
@@ -241,3 +251,8 @@ i:hover {
         font-size: 10px;
     }
 }
+
+.tour-name-header {      
+    height: 40px;
+    }
+
