@@ -271,3 +271,40 @@ i:hover {
     text-shadow: 2px 2px rgb(62, 185, 173);
     font-weight: bolder;
 }
+
+#section-tour-nav {
+    padding-bottom: 20px;
+}
+
+.tour-header {
+    font-size: 2vw;
+    background-color: #142546;
+    color: white;
+    padding: 5px 0;
+}
+
+.nav-link-text {
+    background-color: rgb(62, 185, 173);
+    font-size: 2vw;
+    border: 2px solid #142546;
+}
+
+.tour-name-header {      
+    height: 40px;
+    }
+
+@media only screen and (max-width: 430px) {
+    .nav {
+        display: inline;
+        text-align: center;
+    }
+    #section-tour-nav {
+        margin: 0 40px;
+    }
+    .nav-link-text {
+        background-color: rgb(62, 185, 173);
+        font-size: 12px;
+    }
+}
+
+
