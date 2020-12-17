@@ -64,6 +64,6 @@ user a full sense of security whilst travelling.
 
 ### Credits
 
-* Istock with special credit to Swissmediavision/Diegocardini/Christopher Heil/Sorincolac/Simon Dannhauer/chechele/jlazouphoto/LUNAMARINA/Esdelval/OGphoto/CampPhoto
+* Istock with special credit to Swissmediavision/Diegocardini/Christopher Heil/Sorincolac/Simon Dannhauer/chechele/jlazouphoto/LUNAMARINA/Esdelval/OGphoto/CampPhoto/DC_Colombia
 * Font Awesome
 * Balsamiq 
