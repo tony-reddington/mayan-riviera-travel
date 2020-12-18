@@ -300,6 +300,7 @@ i:hover {
     background-color: rgb(62, 185, 173);
     font-size: 2vw;
     border: 2px solid #142546;
+    border-radius: 20px;
 }
 
 .tour-name-header {      
@@ -312,18 +313,16 @@ i:hover {
     }
 }
 
-@media only screen and (max-width: 430px) {
+@media only screen and (max-width: 490px) {
     .nav {
-        display: inline;
-        text-align: center;
+    display: inline;
+    text-align: center;
     }
     #section-tour-nav {
         margin: 0 40px;
     }
-    .nav-link-text {
-        background-color: rgb(62, 185, 173);
-        font-size: 12px;
-    }
 }
 
-
+.nav-item {
+    padding: 5px;
+}
