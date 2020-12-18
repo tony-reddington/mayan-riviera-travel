@@ -321,6 +321,15 @@ i:hover {
     #section-tour-nav {
         margin: 0 40px;
     }
+    .nav-link {
+        font-size: 14px;
+    }
+    #tour-page-lead h1 {
+        font-size: 3.5vw;
+    }
+    a.nav-link.nav-link-text {
+    font-size: x-small;
+    }
 }
 
 .nav-item {
