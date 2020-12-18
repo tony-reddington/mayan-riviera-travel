@@ -252,13 +252,26 @@ i:hover {
     }
 }
 
+.tour-page-image {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.main-image-section {
+    position: relative;
+}
+
 #tour-page-lead {
     height: 200px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #tour-page-lead h1 {
