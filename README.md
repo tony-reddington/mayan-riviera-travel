@@ -1,4 +1,7 @@
-# Mayan Riviera Travel
+[View website here](https://tony-reddington.github.io/mayan-riviera-travel-1/)
+
+# Mayan Riviera Travel website
+![Responsive Website](documents/responsive image.jpg)
 
 The goal of this website is to showcase information about tour availability in the Mayan Riviera coastal region and surrounding areas. 
 It will provide the customers with reliable transport from their hotels, knowledgeable tour guides, good value for money and give the 
