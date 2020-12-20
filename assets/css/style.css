@@ -304,6 +304,12 @@ i:hover {
     border-radius: 20px;
 }
 
+.nav-link-text:hover {
+    color: white!important;
+    background-color: #142546;
+    text-shadow: 2px 1px rgb(62, 185, 173);
+}
+
 .tour-name-header {      
     height: 40px;
     }
