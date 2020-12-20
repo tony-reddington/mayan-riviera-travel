@@ -405,7 +405,6 @@ label {
     padding-top: 5px;
     padding-left: 2px;
     color: #142546;
-    text-transform: uppercase;
     font-weight: bold;
     text-align: start;
 }
@@ -426,11 +425,18 @@ label {
     background-color: #142546;
     font-weight: bold;
     text-transform: uppercase;
+    text-decoration: underline;
 }
 
 #form-button-div {
     display: flex;
     justify-content: center;
+}
+
+#form-button:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(62, 185, 173);
 }
 
 ::placeholder {
