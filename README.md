@@ -48,11 +48,11 @@
 
 #### Wireframes
 
-* [Home wireframe](documents/home.pdf)
+* [Home wireframe](documents/home-wireframe.pdf)
 
-* [Tours wireframe](documents/tours.pdf)
+* [Tours wireframe](documents/tours-wireframe.pdf)
 
-* [Contact Us wireframe]()
+* [Contact Us wireframe](documents/Contact-us-wireframe.pdf)
 
 ## Features
 
