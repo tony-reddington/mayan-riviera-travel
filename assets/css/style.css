@@ -350,26 +350,30 @@ i:hover {
 }
 
 .form-section {
- padding: 10px 0;
+ padding: 10px 20px;
 }
 
 .form-section h1 {
-    font-size: 15px;
+    font-size: 12px;
     text-align: center;
     color: #142546;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     text-shadow: 1px 1px rgb(62, 185, 173);
     padding-bottom: 10px;
+    font-family: 'Lato', sans-serif;
 }
 
 form {
     height: auto;
-    max-width: 300px;
+    max-width: auto;
     border: 2px solid #142546;
     border-radius: 5px;
     display: inline-grid;
     padding: 5px;
+    font-family: 'Lato', sans-serif;
+    box-shadow: 0 0 8px rgb(62, 185, 173);
+    background-color: white;
 }
 
 .form-center {
@@ -381,11 +385,19 @@ input, select, textarea, #form-button {
     width: 100%;
     border: 1px solid #142546;
     border-radius: 5px;
+    outline: none;
+}
+
+input:focus, select:focus, textarea:focus, #form-button:focus {
+    box-shadow: 0 0 4px rgb(62, 185, 173);
+    border: 2px solid rgb(62, 185, 173);
 }
 
 select option {
-    font-size: 8px;
-    font-weight: bold;
+    font-size: 9px;
+    font-family: 'Lato', sans-serif;
+    color: #142546;
+    background-color: white;
 }
 
 label {
@@ -403,10 +415,17 @@ label {
     padding: 5px 0;
 }
 
+#text-area {
+    max-height: 300px;
+}
+
 #form-button {
     width: 33.3%;
     height: auto;
-    color: #142546;
+    color: rgb(62, 185, 173);
+    background-color: #142546;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 #form-button-div {
@@ -414,3 +433,12 @@ label {
     justify-content: center;
 }
 
+::placeholder {
+    color: rgb(62, 185, 173);
+}
+
+@media only screen and (min-width: 768px) {
+    select option {
+    font-size: 14px;
+    }
+}
