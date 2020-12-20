@@ -453,6 +453,21 @@ label {
     select option {
     font-size: 14px;
     }
+    .form-section h1 {
+    font-size: 2.2vw;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .form-section h1 {
+    font-size: 2vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .form-section h1 {
+    font-size: 1.5vw;
+    }
 }
 
 #reply-body {
