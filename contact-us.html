@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>Mayan Riviera Travel</title>
+<link rel="icon" type="image/jpeg" sizes="16x16 32x32" href="assets/images/favicon-logo.jpg">
+</head>
+<body>
+<header>
+    <div class="container-fluid logo">
+        <a href="index.html">
+        <img id="logo-image" src="assets/images/logo-1.jpg" alt="logo-1">
+        </a>
+    </div>
+</header>
+<section class="sticky-top">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tours.html">Tours <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+    </nav>
+</section>
+<section class="form-section">
+    <div class="form-header-text">
+        <h1>Contact us now to start your Adventure...</h1>
+    </div>
+    <div class="form-center">
+    <form action="https://formdump.codeinstitute/" method="get">
+        <label for="tour-name">Tour Name:</label>
+        <select name="tour-name" id="tour-reference" required>
+            <option value="none">Select your tour option</option>
+            <option value="trip1">1 x day - Tulum Ruins</option>
+            <option value="trip2">1 x day - Chechen Itza</option>
+            <option value="trip3">1 x day - Coba</option>
+            <option value="trip4">2 x days - Chichen Itza - Tulum Ruins - Coba</option>
+            <option value="trip5">2 x days - Tulum Ruins - Bacalar - Calakmul</option>
+            <option value="trip6">2 x days - Las Coloradas = Chichen Itza - Uxmal</option>
+            <option value="trip7">3 x days - Las Coloradas - Cenote Seytun - Uxmal - Chichen Itza - Merida</option>
+            <option value="trip8">3 x days - Tulum Ruins - Mahahual - Bacalar - Calakmul - Campeche</option>
+            <option value="trip9">3 x days - Calakmul - Campeche - Merida - Chichen Itza</option>
+            <option value="trip10">Other</option>
+        </select>
+        <label for="name">Name</label>
+        <input type="text" name="name" placeholder="First/Last name" required>
+        <label for="email-address">Email Address</label>
+        <input type="email" name="email-address" placeholder="Email Address" required>
+        <label for="phone-number">Phone number</label>
+        <input type="tel" name="phone-number" placeholder="Phone number" required>
+        <div id="text-area-div">
+        <textarea name="message" id="text-area" cols="30" rows="10" placeholder="Type your message here"></textarea>
+        </div>
+        <div id="form-button-div">
+        <button type="submit" id="form-button" name="submit" placeholder="Send">Send</button>
+        </div>
+    </form>
+    </div>
+</section>
+<footer class="container-fluid">
+    <div class="row  col">
+        <div class="col-12 col-sm-12 col-lg-4 footer-details">
+            <p>
+            <span>Address:</span> 1 Castillo Plaza, Playa Del Carmen, Quintana Roo, Mexico <br>
+            <span>Phone:</span> +52 998 864 1034 <br>
+            <span>Email:</span> tony.reddington@mayan-riviera-travel.com</p>
+        </div>
+         <div class="d-none d-lg-block col-lg-4 logo-center">
+            <a href="index.html">
+                <img class="footer-logo" src="assets/images/logo-2.jpg" alt="logo-2">
+            </a>
+        </div>
+        <div class="col-12 col-sm-12 col-lg-4 social-icons">
+            <a href="https://www.instagram.com/mayan_riviera_travel/" target="_blank" rel="noreferrer">
+                <i class="fab fa-instagram icons" aria-hidden="true"></i>
+                <span class="sr-only">Instagram</span>
+            </a>
+            <a href="https://www.facebook.com/Mayan-Riviera-Travel-102123705107409/?view_public_for=102123705107409" target="_blank" rel="noreferrer">
+                <i class="fab fa-facebook-square icons" aria-hidden="true"></i>
+                <span class="sr-only">Facebook</span>
+            </a>
+            <a href="https://twitter.com/travel_mayan" target="_blank" rel="noreferrer">
+                <i class="fab fa-twitter-square icons" aria-hidden="true"></i>
+                <span class="sr-only">Twitter</span>
+            </a>
+        </div>
+    </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
