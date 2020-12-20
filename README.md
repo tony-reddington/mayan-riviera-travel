@@ -46,7 +46,7 @@
 
 - Images are one of the main focuses of this website. The first images that users will see on the home page is the image carousel that will draw people in to see what's being offered.
 
-### Wireframes
+#### Wireframes
 
 * [Home wireframe](documents/home.pdf)
 
@@ -116,7 +116,8 @@
 * All text within the website was written by the developer.
 
 ### Media
-* All images were downloaded from Istock with special credit to Swissmediavision/Diegocardini/Christopher Heil/Sorincolac/Simon Dannhauer/chechele/jlazouphoto/LUNAMARINA/Esdelval/OGphoto/CampPhoto/DC_Colombia & Mlenny
+* All images were downloaded from [Istock](https://www.istockphoto.com/) with special credit to Swissmediavision/Diegocardini/Christopher Heil/Sorincolac/Simon Dannhauer/chechele/jlazouphoto/LUNAMARINA/Esdelval/OGphoto/CampPhoto/DC_Colombia & Mlenny
+* [Hatchful](https://hatchful.shopify.com/) was used to create the company logo.
 
 ### Acknowledgements
-* My mentor who gave great feedback and support.
+* My mentor who gave great pointers/feedback and support.
