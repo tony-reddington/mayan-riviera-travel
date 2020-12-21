@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 .logo {
     background-color: white;
@@ -18,21 +18,21 @@
 
 .navbar {
     border-top: none;
-    background: white!important; 
+    background: white !important;
     padding: 0;
     width: 100%;
     display: flex;
     justify-content: center;
-
-}.nav-link {
-    color: #142546!important;
+}
+.nav-link {
+    color: #142546 !important;
     text-transform: uppercase;
     text-decoration: underline;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     font-weight: bold;
     font-size: 20px;
-    padding-left: 40px!important;
-    padding-right: 40px!important;
+    padding-left: 40px !important;
+    padding-right: 40px !important;
 }
 .navbar-nav .nav-link {
     display: flex;
@@ -40,20 +40,21 @@
 }
 
 .navbar-toggler {
-    border: 2px solid #142546!important;
+    border: 2px solid #142546 !important;
     margin: 10px;
 }
 
-.carousel-control-next-icon, .carousel-control-prev-icon {
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
     width: 40px;
     height: 40px;
 }
 
 .carousel-caption {
-        background-image: linear-gradient(0.2deg, #142546, transparent);
-        right: 0%;
-        left: 0%;
-        bottom: 0%;
+    background-image: linear-gradient(0.2deg, #142546, transparent);
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
 }
 
 #about-paragraph {
@@ -61,7 +62,7 @@
     padding: 20px 40px 20px 40px;
     margin: 10px 0px 10px 0px;
     font-size: 1.4rem;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #142546;
 }
 
@@ -75,7 +76,7 @@
     text-align: center;
     padding: 10px 0px 10px 0px;
     margin: 0px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #142546;
     text-transform: uppercase;
     font-weight: bold;
@@ -85,7 +86,7 @@
     text-align: center;
     padding: 10px 0px;
     margin: 20px 0px 0px 0px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #142546;
     font-weight: bold;
     text-transform: uppercase;
@@ -93,7 +94,7 @@
 
 .price-duration {
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #142546;
     text-transform: uppercase;
     font-size: 13px;
@@ -104,7 +105,7 @@
 
 .recommended-tour-paragraph {
     text-align: center;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #142546;
     font-size: 12px;
     padding: 10px;
@@ -177,7 +178,7 @@ a:hover {
 }
 
 a:active {
-    color: #2E8B57;
+    color: #2e8b57;
 }
 
 i:hover {
@@ -209,15 +210,15 @@ i:hover {
 
 @media only screen and (min-width: 992px) {
     .col-lg-4 {
-    -ms-flex: 0 0 33.333333%;
-    flex: 0 0 31.333333%;
-    max-width: 33.333333%;
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 31.333333%;
+        max-width: 33.333333%;
     }
     .recommended-tour-divs {
-    margin: 15px auto;
+        margin: 15px auto;
     }
     .recommended-header-text {
-    font-size: 1.35vw;
+        font-size: 1.35vw;
     }
 }
 
@@ -276,7 +277,7 @@ i:hover {
 }
 
 #tour-page-lead h1 {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #142546;
     font-size: 4vw;
     text-transform: uppercase;
@@ -305,14 +306,14 @@ i:hover {
 }
 
 .nav-link-text:hover {
-    color: white!important;
+    color: white !important;
     background-color: #142546;
     text-shadow: 2px 1px rgb(62, 185, 173);
 }
 
-.tour-name-header {      
+.tour-name-header {
     height: 40px;
-    }
+}
 
 @media only screen and (min-width: 1200px) {
     .tour-name-header {
@@ -322,8 +323,8 @@ i:hover {
 
 @media only screen and (max-width: 490px) {
     .nav {
-    display: inline;
-    text-align: center;
+        display: inline;
+        text-align: center;
     }
     #section-tour-nav {
         margin: 0 40px;
@@ -335,7 +336,7 @@ i:hover {
         font-size: 3.5vw;
     }
     a.nav-link.nav-link-text {
-    font-size: x-small;
+        font-size: x-small;
     }
 }
 
@@ -356,7 +357,7 @@ i:hover {
 }
 
 .form-section {
- padding: 10px 20px;
+    padding: 10px 20px;
 }
 
 .form-section h1 {
@@ -367,7 +368,7 @@ i:hover {
     letter-spacing: 1px;
     text-shadow: 1px 1px rgb(62, 185, 173);
     padding-bottom: 10px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
 }
 
 form {
@@ -377,7 +378,7 @@ form {
     border-radius: 5px;
     display: inline-grid;
     padding: 5px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     box-shadow: 0 0 8px rgb(62, 185, 173);
     background-color: white;
 }
@@ -387,21 +388,27 @@ form {
     text-align: center;
 }
 
-input, select, textarea, #form-button {
+input,
+select,
+textarea,
+#form-button {
     width: 100%;
     border: 1px solid #142546;
     border-radius: 5px;
     outline: none;
 }
 
-input:focus, select:focus, textarea:focus, #form-button:focus {
+input:focus,
+select:focus,
+textarea:focus,
+#form-button:focus {
     box-shadow: 0 0 4px rgb(62, 185, 173);
     border: 2px solid rgb(62, 185, 173);
 }
 
 select option {
     font-size: 9px;
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #142546;
     background-color: white;
 }
@@ -451,22 +458,22 @@ label {
 
 @media only screen and (min-width: 768px) {
     select option {
-    font-size: 14px;
+        font-size: 14px;
     }
     .form-section h1 {
-    font-size: 2.2vw;
+        font-size: 2.2vw;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .form-section h1 {
-    font-size: 2vw;
+        font-size: 2vw;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .form-section h1 {
-    font-size: 1.5vw;
+        font-size: 1.5vw;
     }
 }
 
@@ -475,7 +482,7 @@ label {
 }
 
 #reply {
-    font-family: 'Lato', sans-serif;
+    font-family: "Lato", sans-serif;
     color: #142546;
     text-align: center;
     font-size: 2vw;
