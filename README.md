@@ -100,6 +100,9 @@
     - Github was used to store the images/documents and website code.
 12. [Google Devtools](https://developers.google.com/web/tools/chrome-devtools)
     - This was used throughout the project to check responsiveness across different devices and lighthouse was used to analyse the performance/best practices and accesibility and allowed me to make changes whre required.
+13. [Webformatter](https://webformatter.com/)
+    - This was used to reformat html and CSS code to make so all code was neat and formatted correctly.
+
 ## Testing
 
 ## Deployment
@@ -110,7 +113,7 @@
 
 ### Code
 * Bootstrap was used for the Navbars/Carousels and to make the page responsive across different size devices.
-* [W3 Schools](https://www.w3schools.com/) was used to refresh my memory and how some code items should work.
+* [W3 Schools](https://www.w3schools.com/) was used to refresh my memory regarding how some code should be used and how it should work.
 
 ### Content
 * All text within the website was written by the developer.
