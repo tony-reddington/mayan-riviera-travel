@@ -167,6 +167,11 @@
     font-weight: 900;
 }
 
+a.Phone-email {
+    color: #142546;
+    text-decoration: underline;
+}
+
 footer {
     background-color: white;
     color: #142546;
