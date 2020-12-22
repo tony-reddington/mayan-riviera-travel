@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 /*---------------------------Header logo styling---------------------------*/
 .logo {
-    background-color: white;
+    background-color: #ffffff;
     border-bottom: none;
     width: auto;
     height: 100%;
@@ -18,7 +18,7 @@
 /*---------------------------Navbar styling---------------------------*/
 .navbar {
     border-top: none;
-    background: white !important;
+    background: #ffffff !important;
     padding: 0;
     width: 100%;
     display: flex;
@@ -138,7 +138,7 @@ a.Phone-email {
 }
 
 footer {
-    background-color: white;
+    background-color: #ffffff;
     color: #142546;
     min-height: 110px;
 }
@@ -207,7 +207,7 @@ img.col-sm {
 .tour-header {
     font-size: 2vw;
     background-color: #142546;
-    color: white;
+    color: #ffffff;
     padding: 5px 0;
 }
 
@@ -262,7 +262,7 @@ form {
     padding: 5px;
     font-family: "Lato", sans-serif;
     box-shadow: 0 0 8px rgb(62, 185, 173);
-    background-color: white;
+    background-color: #ffffff;
 }
 
 .form-center {
@@ -292,7 +292,7 @@ select option {
     font-size: 9px;
     font-family: "Lato", sans-serif;
     color: #142546;
-    background-color: white;
+    background-color: #ffffff;
 }
 
 label {
@@ -329,7 +329,7 @@ label {
 }
 
 #form-button:hover {
-    color: white;
+    color: #ffffff;
     text-decoration: none;
     background-color: rgb(62, 185, 173);
 }
@@ -475,7 +475,7 @@ label {
 }
 /*---------------------------Hover---------------------------*/
 .nav-link-text:hover {
-    color: white !important;
+    color: #ffffff !important;
     background-color: #142546;
     text-shadow: 2px 1px rgb(62, 185, 173);
 }
