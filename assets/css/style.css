@@ -111,41 +111,6 @@
     padding: 10px;
 }
 
-@media only screen and (min-width: 768px) {
-    .recommended-tour-paragraph {
-        font-size: 16px;
-    }
-}
-
-@media only screen and (max-width: 576px) {
-    #about-paragraph {
-        font-size: 1rem;
-    }
-    .tour-name-header {
-        font-size: 3vw;
-    }
-}
-
-@media only screen and (min-width: 576px) {
-    .tour-name-header {
-        font-size: 2vw;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    .col-lg-4 {
-        -ms-flex: 0 0 33.333333%;
-        flex: 0 0 31.333333%;
-        max-width: 33.333333%;
-    }
-    .recommended-tour-divs {
-        margin: 15px auto;
-    }
-    .recommended-header-text {
-        font-size: 1.35vw;
-    }
-}
-
 .row {
     margin: 0;
 }
@@ -202,76 +167,6 @@ img.col-sm {
     font-size: 25px;
 }
 
-@media only screen and (max-width: 767px) {
-    .social-icons {
-        margin: 0;
-        padding-top: 5px;
-        padding-bottom: 5px;
-    }
-}
-
-@media only screen and (max-width: 381px) {
-    .footer-details p {
-        font-size: 2.75vw;
-    }
-    .icons {
-        padding: 0 10px 5px 10px;
-        font-size: 6vw;
-    }
-}
-
-@media only screen and (max-width: 767px) {
-    .footer-details p {
-        margin: 0;
-        padding-top: 5px;
-        font-size: 14px;
-        line-height: 30px;
-        padding-bottom: 5px;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    .icons {
-        padding: 0 20px;
-        font-size: 22px;
-    }
-    .social-icons {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    .row {
-        padding: 0;
-        margin: 0;
-    }
-    .footer-details p {
-        font-size: 11px;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .footer-details p {
-        font-size: 14px;
-    }
-    .icons {
-        padding: 0 40px;
-        font-size: 32px;
-    }
-}
-
-a:hover {
-    color: rgb(62, 185, 173);
-    text-shadow: 1px 1px rgb(62, 185, 173);
-}
-
-a:active {
-    color: #2e8b57;
-}
-
-i:hover {
-    color: rgb(62, 185, 173);
-}
-
 .tour-page-image {
     width: 100%;
     height: auto;
@@ -323,39 +218,8 @@ i:hover {
     border-radius: 20px;
 }
 
-.nav-link-text:hover {
-    color: white !important;
-    background-color: #142546;
-    text-shadow: 2px 1px rgb(62, 185, 173);
-}
-
 .tour-name-header {
     height: 40px;
-}
-
-@media only screen and (min-width: 1200px) {
-    .tour-name-header {
-        font-size: 14px;
-    }
-}
-
-@media only screen and (max-width: 490px) {
-    .nav {
-        display: inline;
-        text-align: center;
-    }
-    #section-tour-nav {
-        margin: 0 40px;
-    }
-    .nav-link {
-        font-size: 14px;
-    }
-    #tour-page-lead h1 {
-        font-size: 3.5vw;
-    }
-    a.nav-link.nav-link-text {
-        font-size: x-small;
-    }
 }
 
 .nav-item {
@@ -474,27 +338,6 @@ label {
     color: rgb(62, 185, 173);
 }
 
-@media only screen and (min-width: 768px) {
-    select option {
-        font-size: 14px;
-    }
-    .form-section h1 {
-        font-size: 2.2vw;
-    }
-}
-
-@media only screen and (min-width: 992px) {
-    .form-section h1 {
-        font-size: 2vw;
-    }
-}
-
-@media only screen and (min-width: 1200px) {
-    .form-section h1 {
-        font-size: 1.5vw;
-    }
-}
-
 #reply-body {
     padding: 40px 20px;
 }
@@ -509,4 +352,143 @@ label {
 
 #reply h3 {
     padding-top: 20px;
+}
+
+@media only screen and (max-width: 381px) {
+    .footer-details p {
+        font-size: 2.75vw;
+    }
+    .icons {
+        padding: 0 10px 5px 10px;
+        font-size: 6vw;
+    }
+}
+
+@media only screen and (max-width: 490px) {
+    .nav {
+        display: inline;
+        text-align: center;
+    }
+    #section-tour-nav {
+        margin: 0 40px;
+    }
+    .nav-link {
+        font-size: 14px;
+    }
+    #tour-page-lead h1 {
+        font-size: 3.5vw;
+    }
+    a.nav-link.nav-link-text {
+        font-size: x-small;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    #about-paragraph {
+        font-size: 1rem;
+    }
+    .tour-name-header {
+        font-size: 3vw;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .tour-name-header {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .social-icons {
+        margin: 0;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    .footer-details p {
+        margin: 0;
+        padding-top: 5px;
+        font-size: 14px;
+        line-height: 30px;
+        padding-bottom: 5px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    select option {
+        font-size: 14px;
+    }
+    .form-section h1 {
+        font-size: 2.2vw;
+    }
+    .recommended-tour-paragraph {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .col-lg-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 31.333333%;
+        max-width: 33.333333%;
+    }
+    .recommended-tour-divs {
+        margin: 15px auto;
+    }
+    .recommended-header-text {
+        font-size: 1.35vw;
+    }
+    .icons {
+        padding: 0 20px;
+        font-size: 22px;
+    }
+    .social-icons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .row {
+        padding: 0;
+        margin: 0;
+    }
+    .footer-details p {
+        font-size: 11px;
+    }
+    .form-section h1 {
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .tour-name-header {
+        font-size: 14px;
+    }
+    .footer-details p {
+        font-size: 14px;
+    }
+    .icons {
+        padding: 0 40px;
+        font-size: 32px;
+    }
+    .form-section h1 {
+        font-size: 1.5vw;
+    }
+}
+
+.nav-link-text:hover {
+    color: white !important;
+    background-color: #142546;
+    text-shadow: 2px 1px rgb(62, 185, 173);
+}
+
+a:hover {
+    color: rgb(62, 185, 173);
+    text-shadow: 1px 1px rgb(62, 185, 173);
+}
+
+a:active {
+    color: #2e8b57;
+}
+
+i:hover {
+    color: rgb(62, 185, 173);
 }
