@@ -110,6 +110,11 @@
     font-size: 14px;
     padding: 10px;
 }
+
+img.col-sm {
+    max-width: 728px;
+    height: auto;
+}
 /*---------------------------Footer styling---------------------------*/
 .row {
     margin: 0;
