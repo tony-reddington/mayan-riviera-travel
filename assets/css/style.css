@@ -335,7 +335,7 @@ label {
 }
 
 ::placeholder {
-    color: rgb(62, 185, 173);
+    color: #142546;
 }
 /*---------------------------reply.html page styling---------------------------*/
 #reply-body {
