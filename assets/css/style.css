@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
-
+/*---------------------------Header logo styling---------------------------*/
 .logo {
     background-color: white;
     border-bottom: none;
@@ -15,7 +15,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+/*---------------------------Navbar styling---------------------------*/
 .navbar {
     border-top: none;
     background: white !important;
@@ -43,7 +43,7 @@
     border: 2px solid #142546 !important;
     margin: 10px;
 }
-
+/*---------------------------Carousel styling---------------------------*/
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
     width: 40px;
@@ -56,7 +56,7 @@
     left: 0%;
     bottom: 0%;
 }
-
+/*---------------------------Paragraph about Mayan Riviera Travel---------------------------*/
 #about-paragraph {
     text-align: center;
     padding: 20px 40px 20px 40px;
@@ -65,7 +65,7 @@
     font-family: "Lato", sans-serif;
     color: #142546;
 }
-
+/*---------------------------Recommended tours section styling---------------------------*/
 .recommended-tour-divs {
     padding: 0px 10px;
     border: 5px solid #142546;
@@ -110,7 +110,7 @@
     font-size: 14px;
     padding: 10px;
 }
-
+/*---------------------------Footer styling---------------------------*/
 .row {
     margin: 0;
 }
@@ -166,7 +166,7 @@ img.col-sm {
     padding: 0px 40px 10px 40px;
     font-size: 25px;
 }
-
+/*---------------------------Tour.html main image styling---------------------------*/
 .tour-page-image {
     width: 100%;
     height: auto;
@@ -176,7 +176,7 @@ img.col-sm {
 .main-image-section {
     position: relative;
 }
-
+/*---------------------------Tour page lead text styling---------------------------*/
 #tour-page-lead {
     height: 200px;
     width: 100%;
@@ -199,7 +199,7 @@ img.col-sm {
     text-shadow: 2px 2px rgb(62, 185, 173);
     font-weight: bolder;
 }
-
+/*---------------------------Tour section nav---------------------------*/
 #section-tour-nav {
     padding-bottom: 20px;
 }
@@ -217,7 +217,7 @@ img.col-sm {
     border: 2px solid #142546;
     border-radius: 20px;
 }
-
+/*---------------------------Tour.html tours section---------------------------*/
 .tour-name-header {
     height: 40px;
 }
@@ -237,7 +237,7 @@ img.col-sm {
 #three-day-tours {
     padding-top: 60px;
 }
-
+/*---------------------------Comtact.html page form styling---------------------------*/
 .form-section {
     padding: 10px 20px;
 }
@@ -337,7 +337,7 @@ label {
 ::placeholder {
     color: rgb(62, 185, 173);
 }
-
+/*---------------------------reply.html page styling---------------------------*/
 #reply-body {
     padding: 40px 20px;
 }
@@ -353,7 +353,7 @@ label {
 #reply h3 {
     padding-top: 20px;
 }
-
+/*---------------------------Media queries---------------------------*/
 @media only screen and (max-width: 381px) {
     .footer-details p {
         font-size: 2.75vw;
@@ -473,7 +473,7 @@ label {
         font-size: 1.5vw;
     }
 }
-
+/*---------------------------Hover---------------------------*/
 .nav-link-text:hover {
     color: white !important;
     background-color: #142546;
