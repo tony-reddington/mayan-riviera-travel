@@ -261,7 +261,6 @@ form {
     display: inline-grid;
     padding: 5px;
     font-family: "Lato", sans-serif;
-    box-shadow: 0 0 8px rgb(62, 185, 173);
     background-color: #ffffff;
 }
 
@@ -316,11 +315,10 @@ label {
 #form-button {
     width: 33.3%;
     height: auto;
-    color: rgb(62, 185, 173);
-    background-color: #142546;
+    color: #142546;
+    background-color: rgb(62, 185, 173);
     font-weight: bold;
     text-transform: uppercase;
-    text-decoration: underline;
 }
 
 #form-button-div {
@@ -331,7 +329,7 @@ label {
 #form-button:hover {
     color: #ffffff;
     text-decoration: none;
-    background-color: rgb(62, 185, 173);
+    background-color: #142546;
 }
 
 ::placeholder {
