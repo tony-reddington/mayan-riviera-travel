@@ -210,7 +210,28 @@ img.col-sm {
 .tour-name-header {
     height: 40px;
 }
+/*Bootstrap collapse styling*/
+.btn-primary {
+    background-color: rgb(62, 185, 173);
+    color: #142546;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #142546;
+    font-family: "Lato", sans-serif;
+}
 
+.button-centre {
+    text-align: center;
+    padding-top: 10px;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    color: #ffffff!important;
+    background-color: #142546!important;
+    border-color: none!important;
+    box-shadow: none!important;
+    outline: none!important;
+}
 /*---------------------------Contact.html page styling---------------------------*/
 .form-section {
     padding: 10px 20px;
@@ -462,4 +483,9 @@ a:active {
 
 i:hover {
     color: rgb(62, 185, 173);
+}
+
+.btn-primary:hover {
+    color: #ffffff !important;
+    background-color: #142546;
 }
