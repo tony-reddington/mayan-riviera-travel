@@ -168,7 +168,7 @@ img.col-sm {
 }
 /*---------------------------Tour.html main image styling---------------------------*/
 .tour-page-image {
-    width: 100%;
+    width: 100vw;
     height: auto;
     padding-bottom: 20px;
 }
@@ -389,7 +389,7 @@ label {
     .logo {
     height: 155px;
     display: contents;
-}
+    }
 }
 
 @media only screen and (min-width: 576px) {
