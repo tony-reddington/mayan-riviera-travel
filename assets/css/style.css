@@ -307,7 +307,7 @@ label {
     padding: 5px 0;
 }
 
-#text-area {
+textarea {
     max-height: 300px;
 }
 
