@@ -52,7 +52,7 @@
             <div class="form-center">
                 <form action="reply.html" method="get">
                     <label for="tour-name">Tour Name:</label>
-                    <select name="tour-name">
+                    <select id="tour-name">
                         <option value="none">Select your tour option</option>
                         <option value="trip1">1 x day - Tulum Ruins</option>
                         <option value="trip2">1 x day - Chechen Itza</option>
@@ -66,13 +66,13 @@
                         <option value="trip10">Other</option>
                     </select>
                     <label for="name">NAME (required)</label>
-                    <input type="text" name="name" required />
+                    <input type="text" id="name" required />
                     <label for="email-address">EMAIL ADDRESS (required)</label>
-                    <input type="email" name="email-address" required />
+                    <input type="email" id="email-address" required />
                     <label for="phone-number">PHONE NUMBER (required)</label>
-                    <input type="tel" name="phone-number" required />
+                    <input type="tel" id="phone-number" required />
                     <div id="text-area-div">
-                        <textarea name="message" id="text-area" cols="30" rows="10" placeholder="Type your message here"></textarea>
+                        <textarea id="text-area" cols="30" rows="10" placeholder="Type your message here"></textarea>
                     </div>
                     <!--Button linking to reply.html page with response letting them know their message has been received-->
                     <div id="form-button-div">
