@@ -325,12 +325,6 @@ textarea {
     justify-content: center;
 }
 
-#form-button:hover {
-    color: #ffffff;
-    text-decoration: none;
-    background-color: #142546;
-}
-
 ::placeholder {
     color: #142546;
 }
@@ -479,26 +473,22 @@ textarea {
     }
 }
 /*---------------------------Hover---------------------------*/
-.nav-link-text:hover {
-    color: #ffffff !important;
-    background-color: #142546;
-    text-shadow: 2px 1px rgb(62, 185, 173);
-}
 
 a:hover {
     color: rgb(62, 185, 173);
-    text-shadow: 1px 1px rgb(62, 185, 173);
+    text-shadow: 1px 1px #142546;
 }
-
-a:active {
-    color: #2e8b57;
-}
-
 i:hover {
     color: rgb(62, 185, 173);
 }
 
 .btn-primary:hover {
     color: #ffffff !important;
+    background-color: #142546;
+}
+
+#form-button:hover {
+    color: #ffffff;
+    text-decoration: none;
     background-color: #142546;
 }
