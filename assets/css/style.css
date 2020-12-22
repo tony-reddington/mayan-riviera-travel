@@ -199,11 +199,7 @@ img.col-sm {
     text-shadow: 2px 2px rgb(62, 185, 173);
     font-weight: bolder;
 }
-/*---------------------------Tour section nav---------------------------*/
-#section-tour-nav {
-    padding-bottom: 20px;
-}
-
+/*---------------------------Tour.html tours section---------------------------*/
 .tour-header {
     font-size: 2vw;
     background-color: #142546;
@@ -211,32 +207,10 @@ img.col-sm {
     padding: 5px 0;
 }
 
-.nav-link-text {
-    background-color: rgb(62, 185, 173);
-    font-size: 2vw;
-    border: 2px solid #142546;
-    border-radius: 20px;
-}
-/*---------------------------Tour.html tours section---------------------------*/
 .tour-name-header {
     height: 40px;
 }
 
-.nav-item {
-    padding: 5px;
-}
-
-#one-day-tours {
-    padding-top: 60px;
-}
-
-#two-day-tours {
-    padding-top: 60px;
-}
-
-#three-day-tours {
-    padding-top: 60px;
-}
 /*---------------------------Contact.html page styling---------------------------*/
 .form-section {
     padding: 10px 20px;
