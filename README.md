@@ -3,17 +3,16 @@
 # Mayan Riviera Travel website
 ![responsive website](documents/responsive-image.jpg)
 
-## The goal of this website is to showcase information about tour availability in the Mayan Riviera coastal region and surrounding areas. It will provide the customers with reliable transport from their hotels, knowledgeable tour guides, good value for money and give the user a full sense of security whilst travelling.
+## The goal of this website is to showcase tour availability in the Mayan Riviera coastal region and surrounding areas. It will provide the customers with transport from their hotels, knowledgeable tour guides, good value for money and give the user a full sense of security whilst travelling.
 
-## UX
+## User Experience (UX)
 
 ### User Goals
 * Check tour availability
-* Identify how much time needed for each tour option to determine which tour to choose.
+* Identify how much time is needed for each tour option to determine which tour to choose.
 * Check the price of the trips
 * Contact the company to check if there is availability for the people travelling.
 * Contact the company to ask for additional tour information.
-* Ensuring security is of vital importance to the company, so the travellers are safe.
 * Checking collection times
  
 ### User Stories
@@ -21,15 +20,13 @@
 * As a user, I want to know how much time each tour will take.
 * As a user, I want to know the final price per person includes taxes, and there are no additional charges later when I make payment.
 * As a user, I want to be able to contact the company to check availability and ask further information about tours.
-* As a user, I want to feel secure when booking and ensure my travel partners are safe when travelling.
+* As a user, I want to be able to see all tour information.
  
 ### Site Owner Goals
 * As a site owner, I want to provide users with the best available tours at the lowest prices.
-* Emphasize how experienced our tour guides are.
-* I want users to feel secure when travelling with the company.
+* I want to emphasize how experienced our tour guides are.
 * I want to communicate how long each tour will take.
 * I want to convey that all costs include taxes with no additional surprise fees.
-* I want to express that users will be transported in new vehicles with seat belts and experienced drivers.
 * I want to give speedy responses to all enquiries.
 
 ### Design
@@ -57,17 +54,21 @@
 ## Features
 
 ### Existing Features
-* The website is made made up of three pages that are linked using the Navbar
-* The main navigation bar across the 3 x pages allows the user to select what page the want to view.
+
+* The website is made made up of three pages that are linked using a Navbar.
+* The main navigation bar across the 3 x pages allows the user to select what page they want to view.
 * The top scrolling Carousel on the main page allows users to see the locations on offer with identifying captions and text giving some information.
-* The footer gives users contact information aswell as social media links where they can view further company info.
+* The footer gives users contact information aswell as active social media links where users can view further company info.
 * The carousel features again for all tours that have more than one location showing the user what's being offered.
-* Further section tour duration navbar is located on the tour page to save the user scrolling.
+* Further tour duration section navbar is located on the tour page to save the user scrolling.
 * Form on contact page allows the user to make contact and gather more information.
+* There is a reply page from the company once the users submit their message.
+* All page are responsive across different device dimensions.
 
 ### Features for future implimentation
 * Book button that links to payment page
 * Review section
+* Link to additional tour info including map showing the travel route
 
 ## Technology Used
 
@@ -123,5 +124,5 @@
 * [Hatchful](https://hatchful.shopify.com/) was used to create the company logo.
 
 ### Acknowledgements
-* My mentor who gave great pointers/feedback and support.
+* My mentor Medale Oluwafemi who gave great pointers/feedback and support.
 * The Slack community for building up an amazing library of issue resolutions.
