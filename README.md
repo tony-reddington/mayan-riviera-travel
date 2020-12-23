@@ -8,31 +8,33 @@
 ## User Experience (UX)
 
 ### User Goals
-* Check tour availability
+* See information about the company.
+* Check tour availability.
 * Identify how much time is needed for each tour option to determine which tour to choose.
 * Check the price of the trips
-* Contact the company to check if there is availability for the people travelling.
+* Contact the company to check if there is availability for the all people travelling.
 * Contact the company to ask for additional tour information.
-* Checking collection times
  
 ### User Stories
-* As a user, I want all the tours laid out neatly so I can navigate easily through the options to make my final decision.
+* As a user, I want all the tours laid out neatly so I can navigate easily through the options quickly to make my final decision.
 * As a user, I want to know how much time each tour will take.
-* As a user, I want to know the final price per person includes taxes, and there are no additional charges later when I make payment.
-* As a user, I want to be able to contact the company to check availability and ask further information about tours.
-* As a user, I want to be able to see all tour information.
+* As a user, I want to know the price per person.
+* As a user, I want to be able to multiple methods to contact the company to check availability and ask further information about tours.
+* As a user, I want to be able to see detailed tour information.
+* As a user, i want confirmation that the company received my message.
  
-### Site Owner Goals
-* As a site owner, I want to provide users with the best available tours at the lowest prices.
-* I want to emphasize how experienced our tour guides are.
+### Site Owner Goals#
+* As the owner, i want to share information about the company,vehecles used and about our drivers.
+* I want to recommended tours at low prices and give a further expansive list of tours by days required.
+* I want to site layout to be as clean as possible and easy for the user to navigate.
 * I want to communicate how long each tour will take.
 * I want to convey that all costs include taxes with no additional surprise fees.
-* I want to give speedy responses to all enquiries.
+* I want to give speedy responses to all enquiries and provide a response for each message sent to let the user know we have received their message.
 
 ### Design
 
 #### Colour Scheme
-- The main colours i used for this website are Space Cadet #142546/ Light Sea Green #3Eb9ad and White.
+- The main colours i used for this website are Space Cadet #142546/ Light Sea Green #3Eb9ad (rgb(62, 185, 173)) and White to keep the colour scheme simple but effective and not take away from the beautiful imagery.
 ![responsive website](documents/colour-theme.jpg)
 
 #### Typography
@@ -41,7 +43,7 @@
 
 #### Imagery
 
-- Images are one of the main focuses of this website. The first images that users will see on the home page is the image carousel that will draw people in to see what's being offered.
+- Images are one of the main focuses of this website. A lot of images are displayed across the website with the first being the image Carousel on the homepage displaying all tour location across the site. There are further images in the Recommended tours section and the tours.html page.
 
 #### Wireframes
 
@@ -49,32 +51,31 @@
 
 * [Tours wireframe](documents/tours-wireframe.pdf)
 
-* [Contact Us wireframe](documents/Contact-us-wireframe.pdf)
+* [Contact Us wireframe](documents/contact-us-wireframe.pdf)
 
 ## Features
 
 ### Existing Features
 
-* The website is made made up of three pages that are linked using a Navbar.
-* The main navigation bar across the 3 x pages allows the user to select what page they want to view.
-* The top scrolling Carousel on the main page allows users to see the locations on offer with identifying captions and text giving some information.
-* The footer gives users contact information aswell as active social media links where users can view further company info.
+* The website is made made up of three pages that are linked using a sticky Navbar which allows users to navigate around the website. The navbar collapses on smaller screen to become a navbar toggler.
+* The top homepage image Carousel Allows users see what tour location are being offered as a with caption overlay text providing a brief description of each 
+    location and the homepage. Further carousels appear in the homepage - recommended section and again on the tour page where there are multiple location.
 * The carousel features again for all tours that have more than one location showing the user what's being offered.
-* Further tour duration section navbar is located on the tour page to save the user scrolling.
-* Form on contact page allows the user to make contact and gather more information.
-* There is a reply page from the company once the users submit their message.
+* The tour information is available by clicking a collapsable button so the user is not bombarded with text.
+* The footer gives users contact information with active telephone/email links and active social media links where users can view further company info.
+* Form on contact page allows the user to contact the company for additional information. The user will recieve a response from reply.html once they submit a message.
 * All page are responsive across different device dimensions.
 
 ### Features for future implimentation
+* Map showing tour route
 * Book button that links to payment page
 * Review section
-* Link to additional tour info including map showing the travel route
 
 ## Technology Used
 
 ### Languages used
-* HTML5
-* CSS3
+* [HTML5](https://en.wikipedia.org/wiki/HTML5)
+* [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 ### Frameworks/Libraries and Programs used
 1. [Balsamiq](https://balsamiq.com/)
@@ -90,7 +91,7 @@
 6. [Befunky photo editor](https://www.befunky.com/)
     - Befunky photo editor online application was used to crop and resize images.
 7. [Bootstrap](https://getbootstrap.com/)
-    - Bootstrap was used to make my website more responsive across different size devices plus the Navbar and Carousels.
+    - Bootstrap was used to make my website more responsive across different size devices plus the NavbarCarousels and collapse function.
 8. [Jquery/Popper bundle](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
     - Jquery/Popper bundle was used to make the image carousel active on the Home page and Tour page.
 9. [Git](https://git-scm.com/)
@@ -105,6 +106,9 @@
     - This was used to reformat html and CSS code to make so all code was neat and formatted correctly.
 
 ## Testing
+
+* [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) - [Results](documents/css-test-results.JPG)
+* [W3C Markup validator](https://validator.w3.org/) - [Results](documents/html-test-results.JPG)
 
 ## Deployment
 
