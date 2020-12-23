@@ -219,7 +219,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ## Credits
 
 ### Code
-* Bootstrap was used for the Navbars/Carousels and to make the page responsive across different size devices.
+* Bootstrap was used for the navbar/carousels/collapse buttons and to make the pages responsive across different size devices.
 * [W3 Schools](https://www.w3schools.com/) was used to refresh my memory regarding how some code should be used and how it should work.
 
 ### Content
