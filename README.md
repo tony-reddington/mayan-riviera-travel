@@ -11,20 +11,20 @@
 * See information about the company.
 * Check tour availability.
 * Identify how much time is needed for each tour option to determine which tour to choose.
-* Check the price of the trips
-* Contact the company to check if there is availability for the all people travelling.
+* Check the price of the trips.
+* Find tour information easily.
 * Contact the company to ask for additional tour information.
  
 ### User Stories
 * As a user, I want all the tours laid out neatly so I can navigate easily through the options quickly to make my final decision.
 * As a user, I want to know how much time each tour will take.
 * As a user, I want to know the price per person.
-* As a user, I want to be able to multiple methods to contact the company to check availability and ask further information about tours.
+* As a user, I want multiple ways to contact the company to check availability and ask further information about tours.
 * As a user, I want to be able to see detailed tour information.
 * As a user, i want confirmation that the company received my message.
  
 ### Site Owner Goals#
-* As the owner, i want to share information about the company,vehecles used and about our drivers.
+* As the owner, i want to share information about the company,vehicles used and about our drivers.
 * I want to recommended tours at low prices and give a further expansive list of tours by days required.
 * I want to site layout to be as clean as possible and easy for the user to navigate.
 * I want to communicate how long each tour will take.
@@ -109,6 +109,59 @@
 
 * [Jigsaw CSS validator](https://jigsaw.w3.org/css-validator/) - [Results](documents/css-test-results.JPG)
 * [W3C Markup validator](https://validator.w3.org/) - [Results](documents/html-test-results.JPG)
+
+### Testing user Stories
+-   #### User Goals
+    1. See information about the company.
+        1. On the homepage of the website there is an overview of the companies offering.
+        2. There is information about the tour guides and their wealth of knowledge/how users will be 
+        collected/vehicle information/drivers experience and information about pricing.
+        3. Social media links in the footer.
+    2. Check tour availability.
+        1. Information in the footer on all pages providing address/email and phone number to contact the company.
+        2. Contact us page to contact the cmpany thorugh the website.
+    3. Identify how much time is needed for each tour option to determine which tour to choose.
+        1. Tour duration information clearly displayed within each tour tile.
+    4. Check the price of the trips
+        1. Tour price information clearly displayed on each tour tile.
+    5. Find tour information easily
+        1. Tour information presented neatly in a calapsible button in each tour tile.
+    6. Contact the company to ask for additional tour information.
+        1. Phone number/email address and contact page easily located to contact the company.
+ 
+-   #### User Stories
+    1. As a user, I want all the tours laid out neatly so I can navigate easily through the options quickly to make my final decision.
+        1. The user able to access each page throught the sticky navbar that visible as the user scrolls.
+    2. As a user, I want to know how much time each tour will take.
+        1. The duration of each tour is clearly vible beneath each tour image.
+    3. As a user, I want to know the price per person.
+        1. The price for each tour is clearly layed out beneath the tour image.
+    4. As a user, I want multiple ways to contact the company to check availability and ask further information about tours.
+        1. Contact information is clearly layed out in the footer prviding the user with the address/phone number and email address.
+        2. There is a contact page where the user can select their tour/enter limited information and send a message.
+    5. As a user, I want to be able to see detailed tour information.
+        1. There is a "Click her for more information" button located beneath each tour image that expands and provides detailed tour information.
+    6. As a user, i want confirmation that the company received my message.
+        1. On the contact page whent he user click send to submit their message they recieve a response letting them know that their message has been received and the company will be in contact soon.
+ 
+-   #### Site Owner Goals
+    1. As the owner, i want to share information about the company,vehicles used and about our drivers.
+        1. Information about the company, vehicles and drivers is provided in a paragraph on the homepage.
+    2. I want to recommended tours at low prices and give a further expansive list of tours by days required.
+        1. There are 3 x recommended tours on the homepage displaying title/images/price/duration and each have a button that upon clicking will dropdown and tour information will be in view. 
+    3. I want to site layout to be as clean as possible and easy for the user to navigate.
+        1. There is a image carousel on the homepage displaying vibrant tour images with captions giving brief locational descriptions.
+        2. There is a naviagtion bar at the top of each page allowing users to easily navigate through the site.
+        3. Tour information is neatly framed with 3 on the homepage and 9 on the tour page. The tours on the tour page are seperated into sections by how many days each tour takes.
+        4. All content is aligned to the centre and evenly spaced creating a nice flow of information.
+        5. A contact page asks users for some minimal information in order for the company to respond with the information they require.
+    4. I want to communicate how long each tour will take.
+        1. Tour duration information is detailed in each tour tiles beneath the tour image.
+        2. The tour duration is reapeated again on the tour page where there are sections for 1 x day/2 x day and 3 x day tours.
+    5. I want to convey that all costs include taxes with no additional surprise fees.
+        1. Information stating that tours are fully inslusive is within the company overview text on the homepage.
+    6. I want to give speedy responses to all enquiries and provide a response for each message sent to let the user know we have received their message.
+        1. Upon submitting a messager the user received a response telling them that there message was received and the company will contactthem soon.
 
 ## Deployment
 
