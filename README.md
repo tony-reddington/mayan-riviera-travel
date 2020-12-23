@@ -163,6 +163,12 @@
     6. I want to give speedy responses to all enquiries and provide a response for each message sent to let the user know we have received their message.
         1. Upon submitting a messager the user received a response telling them that there message was received and the company will contactthem soon.
 
+### Further Testing
+
+- The website was tested on Google Chrome/Mozilla Firefox/Safari & Microsoft Edge.
+- I used the Google inspect tool to test across multiple devices and got friends to test the Iphone 11 and new Iphone 12 to ensure all was working as it should.
+- I used the Goggle developer Lighthouse tool to test the performance/accesibility/best practices and SEO.
+
 ## Deployment
 
 ### Github Pages
